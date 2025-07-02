@@ -20,7 +20,7 @@
     };
 
     const MIN_SCORE_TO_SUBMIT = 150000; //大于该数值的分数将自动提交
-    const MOVE_DELAY = 500; //速度=ms
+    const MOVE_DELAY = 500; //速度
     const CHECK_INTERVAL = 500; //检查元素间隔
 
     let moveCount = 0;
