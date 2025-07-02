@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         2048高分策略版
+// @name         2048高分策略版 
 // @version      1.5
 // @description   ====因为好久没玩游戏余额太多因此搞了这个脚本,官方早就开始查女巫但不会告诉你你已被女巫,如果你以后查空投发现自己被女巫了,与该脚本无关!!!
 // @author       如何呢?
@@ -21,7 +21,7 @@
 
     const MIN_SCORE_TO_SUBMIT = 150000; //大于该数值的分数将自动提交
     const MOVE_DELAY = 500; //速度
-    const CHECK_INTERVAL = 500; //检查元素 间隔
+    const CHECK_INTERVAL = 500; //检查元素间隔
 
     let moveCount = 0;
     let lastBoardHash = '';
