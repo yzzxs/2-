@@ -268,7 +268,7 @@
    function addDisclaimer() {
     const disclaimer = document.createElement('div');
     disclaimer.id = 'tm-2048-disclaimer';
-    disclaimer.textContent = '因为好久没玩游戏余额太多因此搞了这个脚本,官方早就开始查女巫但不会告诉你你已被女巫,如果你以后查空投发现自己被女巫了,与该脚本无关!!!----------如何呢?';
+    disclaimer.textContent = '因为好久没玩游戏余额太多因此搞了这个脚本,官方早就开始查女巫但不会告诉你你已被女巫,如果你以后查空投发现自己被女巫了,与该脚本无关!!!---------如何呢?';
     disclaimer.style.position = 'fixed';
     disclaimer.style.top = '30px';
     disclaimer.style.left = '50%';
