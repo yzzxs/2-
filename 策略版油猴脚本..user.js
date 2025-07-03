@@ -149,7 +149,7 @@
         const currentHash = getBoardHash(board);
 
         if (currentHash === lastBoardHash) {
-            console.log('卡住了，正在尝试恢复操作。');
+            console.log('卡住了，正在尝试恢复操作。');//可能已结束
             return [DIRECTIONS.RIGHT, DIRECTIONS.DOWN, DIRECTIONS.LEFT, DIRECTIONS.UP][moveCount % 4];
         }
 
